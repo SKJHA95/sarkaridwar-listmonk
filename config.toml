@@ -1,0 +1,25 @@
+[app]
+address = "0.0.0.0:9000"
+admin_username = "listmonk"
+admin_password = "SarkariDwar_Admin_2026!"
+root_url = "http://localhost:9000"
+from_email = "SarkariDwar Alerts <alerts@sarkaridwar.in>"
+notify_emails = []
+enable_public_subscription_page = false
+enable_public_archive = false
+send_optin_confirmation = false
+
+[db]
+host = "dpg-dacqt86q1p3s738o9hd0-a"
+port = 5432
+user = "listmonk"
+password = "MS5ww981vGI5LdW6CJsmJMAjV0lNnfpm"
+database = "listmonk_xzhc"
+ssl_mode = "require"
+max_open = 10
+max_idle = 5
+max_lifetime = "300s"
+
+[privacy]
+individual_tracking = true
+unsubscribe_header = true
